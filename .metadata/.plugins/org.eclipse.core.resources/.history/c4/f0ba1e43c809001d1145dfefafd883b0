@@ -1,0 +1,23 @@
+package factorial;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		Factorial fac = new Factorial();
+		System.out.print(fac.CalculateFactorial(5));
+	}
+
+	int factorial = 1;
+
+	public int CalculateFactorial(int n) {
+
+		if (n == 1 | n == 0) {
+			factorial = 1;
+		} else {
+			factorial = factorial * n;
+		}
+
+		return factorial;
+	}
+
+}
