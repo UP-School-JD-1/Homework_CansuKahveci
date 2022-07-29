@@ -123,3 +123,4 @@ $RECYCLE.BIN/
 #Extra Folders
 /unused
 **/.DS_Store
+*.xmi
