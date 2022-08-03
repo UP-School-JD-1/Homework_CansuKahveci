@@ -123,3 +123,5 @@ $RECYCLE.BIN/
 #Extra Folders
 /unused
 **/.DS_Store
+*.xmi
+.metadata/.plugins/com.genuitec.eclipse.monitor/myeclipse-usage.properties
