@@ -12,6 +12,10 @@ public class Point {
 //			
 //			return coordinatePoint;
 //		}
+		
+		public Point() {
+			System.out.print("Constructor");
+		}
 
 		public double getx() {
 			return x;
