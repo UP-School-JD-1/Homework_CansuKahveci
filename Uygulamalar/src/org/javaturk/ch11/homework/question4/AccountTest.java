@@ -1,4 +1,4 @@
-package org.javatürk.ch11.question4;
+package org.javaturk.ch11.homework.question4;
 
 public class AccountTest {
 
