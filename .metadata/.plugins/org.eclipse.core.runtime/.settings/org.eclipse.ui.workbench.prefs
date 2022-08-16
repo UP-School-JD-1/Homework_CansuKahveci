@@ -28,3 +28,4 @@ org.eclipse.ui.workbench.INACTIVE_TAB_UNSELECTED_TEXT_COLOR=0,1,2
 org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_END=0,1,2
 org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_START=0,1,2
 org.eclipse.ui.workbench.LINK_COLOR=0,1,2
+overridepresentation=true

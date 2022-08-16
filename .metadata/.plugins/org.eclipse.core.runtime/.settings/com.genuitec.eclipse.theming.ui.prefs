@@ -1,3 +1,6 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=main
 applyBackground=false
 approved.defs.file.last.changed.time=1649720987000
 configurationInstallLocation=/C\:/Users/Magis-20210005/eclipse/jee-2022-06/eclipse/
@@ -6,11 +9,7 @@ eclipse.preferences.version=1
 iconcolormode=primary
 iconreplacement=false
 last.download.attempt.time=1658403275290
-<<<<<<< HEAD
-lastConfiguration=1660579927189
-=======
-lastConfiguration=1659986622676
->>>>>>> main
+lastConfiguration=1660581175218
 newinstall=false
 showWelcomeDialog=false
 workbench.theme=Deep Black
