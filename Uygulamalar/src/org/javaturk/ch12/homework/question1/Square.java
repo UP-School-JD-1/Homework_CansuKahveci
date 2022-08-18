@@ -1,7 +1,5 @@
 package org.javaturk.ch12.homework.question1;
 
-import java.util.Objects;
-
 public class Square extends Shape {
 
 	double side;
@@ -26,8 +24,8 @@ public class Square extends Shape {
 
 	@Override
 	public int hashCode() {
-//		int random = (int) Math.random();
-//		int hash = random;
+//		Hashcode sabit olarak 5 tanımladık. Bunu yapmak mantıksız
+//		equal ve hashcode birbiri ile uyumlu olmalı. equel değilken hash kod FARKLI ÇIKMAMALI"
 		int hash = 5;
 		return hash;
 	}
@@ -41,6 +39,4 @@ public class Square extends Shape {
 		return b;
 	}
 
-	
-	
 }

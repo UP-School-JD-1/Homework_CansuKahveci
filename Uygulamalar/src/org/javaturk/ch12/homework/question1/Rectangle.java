@@ -1,6 +1,7 @@
 package org.javaturk.ch12.homework.question1;
 
 import java.util.Objects;
+import java.util.Random;
 
 public class Rectangle extends Shape {
 
@@ -38,10 +39,14 @@ public class Rectangle extends Shape {
 		return str;
 	}
 
+
 	@Override
 	public int hashCode() {
-		int random = (int) Math.random();
-		int hash = (int) shortSide + (int) longSide + random;
+//		random değ. sıfır geliyor, double değerr geliyor 0,12454 --> int olarak aldığımız içn 0 olarak alıyor
+//		int random = (int) Math.random();
+		Random random = new Random();
+        int r = random.nextInt();
+		int hash = (int) shortSide + (int) longSide + r;
 		return hash;
 	}
 

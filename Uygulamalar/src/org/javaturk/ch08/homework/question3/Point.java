@@ -32,6 +32,13 @@ public class Point {
 	public void sety(double y) {
 		this.y = y;
 	}
+	
+//	private double CalculatePow(double number, double pow) {
+//		double d =  Math.sqrt(Math.pow(number, pow));
+//		return d;
+//	}
+	
+	//this() kullanılabilir mi
 
 	public double calculateDistanceFromCenter(double x, double y) {
 		this.x = x;

@@ -27,7 +27,7 @@ public class AccountTest {
 
 		System.out.println();
 
-////		referansını nasıl yazırabilirim?
+////		referansını nasıl yazırabilirim? toString??
 //		System.out.println(account3.getFee());
 
 		AccountClient accountClient1 = new AccountClient();
@@ -37,6 +37,9 @@ public class AccountTest {
 		accountClient1.name = "Hatice";
 		accountClient1.lastName = "Kahveci";
 		accountClient1.account = account1;
+
+		account1.setAccountclient(accountClient1);
+		account3.setAccountclient(accountClient3);
 
 		accountClient1.printInfo(account1);
 		System.out.println("Use depositMoney Metot");

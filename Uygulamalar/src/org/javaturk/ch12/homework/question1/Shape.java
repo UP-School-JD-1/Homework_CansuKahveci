@@ -10,7 +10,8 @@ public class Shape {
 
 	};
 
-	// circle için tanımladık, başka yolu var mı??? tanımlamasak hata alıyoruz ,tek değ. için ne yapalabilir??
+	// circle için tanımladık, başka yolu var mı??? tanımlamasak hata alıyoruz ,tek
+	// değ. için ne yapalabilir??
 	public Shape(double length) {
 		this.length = length;
 	};
@@ -28,18 +29,16 @@ public class Shape {
 
 	};
 
-	double calculateArea(double lenght, double width) {
-
+	double calculateArea(double length, double width) {
 		this.length = length;
 		this.width = width;
-		double area = lenght * width;
+		double area = length * width;
 		return area;
 	};
 
-	double calculateArea(double lenght) {
-
+	double calculateArea(double length) {
 		this.length = length;
-		double area = Math.pow(lenght, 2);
+		double area = Math.pow(length, 2);
 		return area;
 	};
 
@@ -71,7 +70,6 @@ public class Shape {
 		return str;
 	}
 
-//	buna ihtiyaç var mı? shape sınıfının nesnesini kullanacak mıyız?
 	@Override
 	public boolean equals(Object o) {
 		Shape s = (Shape) o;

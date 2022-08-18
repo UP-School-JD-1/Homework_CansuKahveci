@@ -4,10 +4,11 @@ public class Account {
 
 	private double balance;
 	final static double fee = 4.5;
+	private AccountClient accountclient;
 //	static double fee = 4.5;
 
-//	accountclient a gerek yok, pakete erişim kontolü yaparak sarmalama mı yaptık? 
-//	private AccountClient accountclient;
+//	accountclient a gerek yok mu? iki sınıfta 
+//	birbirine eşleme yapmadık ama birini diğerinde kullandık
 
 	public Account() {
 
@@ -17,7 +18,7 @@ public class Account {
 //		this.fee = fee;
 //		this.balance = balance;
 //	}
-	
+
 	public Account(double balance) {
 		this.balance = balance;
 	}
@@ -36,6 +37,16 @@ public class Account {
 
 	public double getFee() {
 		return fee;
+	}
+
+	public AccountClient getAccountclient() {
+		return accountclient;
+	}
+
+	public void setAccountclient(AccountClient accountclient) {
+		this.accountclient = accountclient;
 	};
+	
+	
 
 }

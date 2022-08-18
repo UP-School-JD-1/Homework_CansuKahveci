@@ -1,13 +1,12 @@
 package org.javaturk.ch12.homework.question1;
 
-import java.util.Objects;
-
 public class Triangle extends Shape {
 
 	public double side1;
 	public double side2;
 	public double side3;
 
+	// bunu yapmak gerekli mi? super kullanmamanın bir eksisi var mı?
 	Triangle() {
 		super();
 	};
@@ -47,7 +46,7 @@ public class Triangle extends Shape {
 	@Override
 	public int hashCode() {
 		int random = (int) Math.random();
-		int total  = (int)side1 + (int)side2 + (int)side3;
+		int total = (int) side1 + (int) side2 + (int) side3;
 		int hash = total + random;
 		return hash;
 	}

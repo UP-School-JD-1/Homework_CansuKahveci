@@ -1,6 +1,6 @@
 package org.javaturk.ch12.homework.question1;
 
-import java.util.Objects;
+import java.util.Random;
 
 public class Circle extends Shape {
 
@@ -31,8 +31,9 @@ public class Circle extends Shape {
 
 	@Override
 	public int hashCode() {
-		int random = (int) Math.random();
-		int hash = random + (int) Math.PI;
+		Random random = new Random();
+		int r = random.nextInt();
+		int hash = r;
 		return hash;
 	}
 
