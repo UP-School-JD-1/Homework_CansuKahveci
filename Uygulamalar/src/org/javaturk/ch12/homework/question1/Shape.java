@@ -5,8 +5,14 @@ public class Shape {
 	protected double length;
 	protected double width;
 
+	// triangle daki boş contructor için
 	public Shape() {
 
+	};
+
+	// circle için tanımladık, başka yolu var mı??? tanımlamasak hata alıyoruz ,tek değ. için ne yapalabilir??
+	public Shape(double length) {
+		this.length = length;
 	};
 
 	public Shape(double length, double witdh) {
@@ -54,6 +60,25 @@ public class Shape {
 	double calculateCircumference(double d) {
 		double circumference = 4 * d;
 		return circumference;
+	}
+
+	@Override
+	public String toString() {
+		String str = new String();
+		str += "Shape Info : ";
+		str += "length: " + length + "\n";
+		str += "width: " + width + "\n";
+		return str;
+	}
+
+//	buna ihtiyaç var mı? shape sınıfının nesnesini kullanacak mıyız?
+	@Override
+	public boolean equals(Object o) {
+		Shape s = (Shape) o;
+		boolean b = false;
+		if (length == s.length & width == s.width)
+			b = true;
+		return b;
 	}
 
 }

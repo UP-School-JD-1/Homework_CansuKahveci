@@ -17,7 +17,7 @@ public class ToStringExample extends Object{
 		Car c1 = new Car("Mercedes", "CLK200", "2018", 200, 4190);
 		
 		System.out.format("%-25s: %50s\n", "c1", c1);
-//		System.out.format("%-25s: %50s\n", "c1.toString()", c1.toString());
+		System.out.format("%-25s: %50s\n", "c1.toString()", c1.toString());
 		System.out.format("%-25s: %-50d\n", "c1.hashCode()", c1.hashCode());
 		System.out.format("%-25s: %-50s\n", "c1.getClass().getName()", c1.getClass().getName());
 		System.out.format("c1.getClass().getName() + '@' + Integer.toHexString(c1.hashCode()):\n" + c1.getClass().getName() + '@' + Integer.toHexString(c1.hashCode()));
