@@ -55,6 +55,11 @@ public class ShapeTest {
 		System.out.println("s1.hashCode() " + s1.hashCode());
 		System.out.println("s2.hashCode() " + s2.hashCode());
 
+		
+		Canvas canvas1 = new Canvas();
+		canvas1.drawShape(canvas1);
+		canvas1.eraseShape(canvas1);
+		
 	}
 
 }

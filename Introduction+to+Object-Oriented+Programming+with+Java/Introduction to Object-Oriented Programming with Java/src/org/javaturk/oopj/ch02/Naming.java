@@ -12,22 +12,22 @@ package org.javaturk.oopj.ch02;
  *      </p>  
  */
 public class Naming {
-	private int anIntegerVariable; 
-	private double aDoubleVariable;
+	private int integerVariable; 
+	private double doubleVariable;
 
 	public static void main(String[] args) {
 		Naming namingDemo = new Naming();
-		namingDemo.anIntegerVariable = 95;
-		namingDemo.aDoubleVariable = 0.33;
-		namingDemo.aSimpleMethod(2, 5);
-		namingDemo.anotherSimpleMethod(8, 4, false);
+		namingDemo.integerVariable = 95;
+		namingDemo.doubleVariable = 0.33;
+		namingDemo.simpleMethod(2, 5);
+		namingDemo.simpleMethod(8, 4, false);
 	}
 	
-	public void aSimpleMethod(int aParameter, int anotherParameter){
+	public void simpleMethod(int parameter, int parameter2){
 		System.out.println("in aSimpleMethod(int aParameter, int anotherParameter)");
 	}
 	
-	public void anotherSimpleMethod(int aParameter, long anotherParameter, boolean yetAnotherParameter){
+	public void simpleMethod(int parameter, long parameter2, boolean parameter3){
 		System.out.println("in anotherSimpleMethod(int aParameter, long anotherParameter, boolean yetAnotherParameter)");
 	}
 }
