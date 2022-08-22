@@ -10,23 +10,20 @@ public class VocatitionalStudent extends Student {
 
 	@Override
 	void study() {
-		System.out.print("study method in VocationalStudent class");
+		System.out.println("study method in VocationalStudent class");
 	}
 
 	@Override
 	void register() {
-		System.out.print("register method in VocationalStudent class");
+		System.out.println("register method in VocationalStudent class");
 		super.register();
 	}
 
+//	Student'daki toStringi kullanmamız yeterli mi? return de dönen bilgilerde farklılık yok çünkü
 	@Override
 	public String toString() {
-		return "Student : " + 
-				"\nno = " + no + 
-				"\nname = " + name +
-				"\nyear = " + year + 
-				"\ndob = " + dob +
-				"\nmajor = "+ major;
+		return "Student : " + "\nno = " + no + "\nname = " + name + "\nyear = " + year + "\ndob = " + dob + "\nmajor = "
+				+ major;
 	}
 
 }

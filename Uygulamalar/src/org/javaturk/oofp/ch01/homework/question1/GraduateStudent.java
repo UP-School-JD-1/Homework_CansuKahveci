@@ -14,20 +14,20 @@ public class GraduateStudent extends Student {
 
 	@Override
 	void study() {
-		System.out.print("study method in GraduateStudent class");
+		System.out.println("study method in GraduateStudent class");
 	}
 
 	@Override
 	void register() {
-		System.out.print("register method in GraduateStudent class");
+		System.out.println("register method in GraduateStudent class");
 	}
 
 	void writeThesis() {
-		System.out.print("writeThesis method in GraduateStudent class");
+		System.out.println("writeThesis method in GraduateStudent class");
 	}
 
 	void meetWithAdvisor() {
-		System.out.print("meetWithAdvisor method in GraduateStudent class");
+		System.out.println("meetWithAdvisor method in GraduateStudent class");
 	}
 
 	public String getAdvisor() {

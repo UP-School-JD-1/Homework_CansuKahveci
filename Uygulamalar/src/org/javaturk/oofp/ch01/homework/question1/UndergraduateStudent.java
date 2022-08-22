@@ -13,12 +13,12 @@ public class UndergraduateStudent extends Student {
 
 	@Override
 	void study() {
-		System.out.print("study method in UndergraduateStudent class");
+		System.out.println("study method in UndergraduateStudent class");
 	}
 
 	@Override
 	void register() {
-		System.out.print("register method in UndergraduateStudent class");
+		System.out.println("register method in UndergraduateStudent class");
 	}
 
 	@Override
@@ -34,7 +34,5 @@ public class UndergraduateStudent extends Student {
 	public void setMinor(String minor) {
 		this.minor = minor;
 	}
-	
-	
 
 }

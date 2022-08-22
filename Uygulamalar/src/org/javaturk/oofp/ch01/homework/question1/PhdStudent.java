@@ -14,26 +14,26 @@ public class PhdStudent extends GraduateStudent {
 
 	@Override
 	void study() {
-		System.out.print("study method in PhdStudent class");
+		System.out.println("study method in PhdStudent class");
 	}
 
 	@Override
 	void register() {
-		System.out.print("register method in PhdStudent class");
+		System.out.println("register method in PhdStudent class");
 	}
 
 	@Override
 	void writeThesis() {
-		System.out.print("writeThesis method in PhdStudent class");
+		System.out.println("writeThesis method in PhdStudent class");
 	}
 
 	@Override
 	void meetWithAdvisor() {
-		System.out.print("meetWithAdvisor method in PhdStudent class");
+		System.out.println("meetWithAdvisor method in PhdStudent class");
 	}
 
 	void writePaper() {
-		System.out.print("study method in PhdStudent class");
+		System.out.println("study method in PhdStudent class");
 	}
 
 	public boolean getQualifyingExamTaken() {

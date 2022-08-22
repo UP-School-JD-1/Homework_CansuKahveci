@@ -10,17 +10,17 @@ public class MasterStudent extends GraduateStudent {
 
 	@Override
 	void study() {
-		System.out.print("study method in MasterStudent class");
+		System.out.println("study method in MasterStudent class");
 	}
 
 	@Override
 	void register() {
-		System.out.print("register method in MasterStudent class");
+		System.out.println("register method in MasterStudent class");
 	}
 
 	@Override
 	void writeThesis() {
-		System.out.print("writeThesis method in MasterStudent class");
+		System.out.println("writeThesis method in MasterStudent class");
 	}
 
 	@Override
