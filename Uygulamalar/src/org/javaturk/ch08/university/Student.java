@@ -1,4 +1,4 @@
-package org.javaturk.oopj.ch08.university;
+package org.javaturk.ch08.university;
 
 /**
  * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
@@ -8,9 +8,11 @@ package org.javaturk.oopj.ch08.university;
  * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
  *      </p>
  */
-public class Department {
-    String name;
-    Professor head;
-    Course[] courses;
-    Student[] students;
+public class Student {
+	String no;
+	String name;
+	String dob;
+	Department department;
+	Professor advisor;
+	Course[] coursesTaken;
 }

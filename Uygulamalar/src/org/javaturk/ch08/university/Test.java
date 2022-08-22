@@ -1,4 +1,4 @@
-package org.javaturk.oopj.ch08.university;
+package org.javaturk.ch08.university;
 
 /**
  * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>

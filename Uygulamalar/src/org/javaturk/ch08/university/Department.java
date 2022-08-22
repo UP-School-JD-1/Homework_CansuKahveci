@@ -1,6 +1,4 @@
-package org.javaturk.oopj.ch08.university;
-
-import java.util.Date;
+package org.javaturk.ch08.university;
 
 /**
  * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
@@ -10,12 +8,9 @@ import java.util.Date;
  * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
  *      </p>
  */
-public class Course {
-	String code;
+public class Department {
     String name;
-    Department department;
-    Professor teacher;
+    Professor head;
+    Course[] courses;
     Student[] students;
-    String[] days;
-    Date time;
 }

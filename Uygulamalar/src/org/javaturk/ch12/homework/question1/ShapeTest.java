@@ -55,10 +55,22 @@ public class ShapeTest {
 		System.out.println("s1.hashCode() " + s1.hashCode());
 		System.out.println("s2.hashCode() " + s2.hashCode());
 
+//		Canvas canvas1 = new Canvas();
+//		canvas1.drawShape(canvas1);
+//		canvas1.eraseShape(canvas1);
+
+		Canvas canvas2 = new Canvas();
+//		System.out.println("\ncanvas2 " + canvas2.calculateArea(5,2));
+
+		System.out.println();
+
+		ShapeFactory shapeFactory = new ShapeFactory();
+		shapeFactory.createShape();
 		
-		Canvas canvas1 = new Canvas();
-		canvas1.drawShape(canvas1);
-		canvas1.eraseShape(canvas1);
+		System.out.println("-------------");
+		canvas2.drawShape(c2);
+		canvas2.drawShape(t3);
+		System.out.println("-------------");
 		
 	}
 

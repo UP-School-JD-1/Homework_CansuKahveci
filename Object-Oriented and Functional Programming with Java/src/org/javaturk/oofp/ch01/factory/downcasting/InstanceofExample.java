@@ -44,7 +44,7 @@ public class InstanceofExample {
 		if(e4 instanceof Director d1){
 			System.out.println("e4 is an instance of Director");
 			d1.makeAStrategicPlan();
-//			Director d1 = (Director) e4; 	
+//			Director d2 = (Director) e4; 	
 		} 
 		else if(e4 instanceof Manager){
 			System.out.println("e4 is an instance of Manager");
