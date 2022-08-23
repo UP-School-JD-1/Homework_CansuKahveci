@@ -7,10 +7,10 @@ public class ShapeTest {
 		Circle c1 = new Circle(1);
 		Circle c2 = new Circle(4);
 
-		Square s1 = new Square();
+		Square s1 = new Square(5);
 		Shape shape = new Shape(4, 4);
 		Shape shape1 = new Shape(7, 8);
-		Square s2 = new Square();
+		Square s2 = new Square(12);
 
 		Triangle t1 = new Triangle(2, 4, 5);
 		Triangle t2 = new Triangle(7, 6, 9);
