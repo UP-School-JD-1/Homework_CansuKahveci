@@ -41,8 +41,8 @@ public class Circle extends Shape {
 	public boolean equals(Object o) {
 		Circle c = (Circle) o;
 		boolean b = false;
-		if (r == c.r & r == c.r)
-			b = true;
+		if (r == c.r) {
+			b = true;}
 		return b;
 	}
 

@@ -10,8 +10,6 @@ public class Shape {
 
 	};
 
-	// circle için tanımladık, başka yolu var mı??? tanımlamasak hata alıyoruz ,tek
-	// değ. için ne yapalabilir??
 	public Shape(double length) {
 		this.length = length;
 	};

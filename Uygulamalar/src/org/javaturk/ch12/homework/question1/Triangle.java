@@ -6,7 +6,6 @@ public class Triangle extends Shape {
 	public double side2;
 	public double side3;
 
-	// bunu yapmak gerekli mi? super kullanmamanın bir eksisi var mı?
 	Triangle() {
 		super();
 	};
@@ -19,7 +18,7 @@ public class Triangle extends Shape {
 	@Override
 	void erase() {
 		System.out.print("This is a method to erase triangle");
-		super.erase();
+//		super.erase();
 	}
 
 	@Override

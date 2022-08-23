@@ -2,7 +2,7 @@ package org.javaturk.oofp.ch01.homework.question1;
 
 import java.util.Date;
 
-class Student {
+abstract class Student {
 
 	protected int no;
 	protected String name;
@@ -18,13 +18,9 @@ class Student {
 		this.major = major;
 	}
 
-	void study() {
+	abstract void study(); 
 
-	}
-
-	void register() {
-
-	}
+	abstract void register(); 
 
 	@Override
 	public String toString() {

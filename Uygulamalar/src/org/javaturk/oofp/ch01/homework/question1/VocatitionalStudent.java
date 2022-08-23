@@ -16,7 +16,6 @@ public class VocatitionalStudent extends Student {
 	@Override
 	void register() {
 		System.out.println("register method in VocationalStudent class");
-		super.register();
 	}
 
 //	Student'daki toStringi kullanmamız yeterli mi? return de dönen bilgilerde farklılık yok çünkü
