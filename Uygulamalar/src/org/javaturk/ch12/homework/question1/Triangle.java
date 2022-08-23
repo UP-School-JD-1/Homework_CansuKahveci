@@ -2,17 +2,11 @@ package org.javaturk.ch12.homework.question1;
 
 public class Triangle extends Shape {
 
-	public double side1;
-	public double side2;
-	public double side3;
+	private double edge;
 
-	Triangle() {
-		super();
-	};
-
-	Triangle(double side1, double side2, double side3) {
-		super(side1, side2);
-		this.side3 = side3;
+	Triangle(double length, double width, double edge) {
+		super(length, width);
+		this.edge = edge;
 	};
 
 	@Override
@@ -22,30 +16,30 @@ public class Triangle extends Shape {
 	}
 
 	@Override
-	double calculateArea(double side1, double side2) {
-		double area = (super.calculateArea(side1, side2)) / 2;
+	double calculateArea(double length, double width) {
+		double area = (super.calculateArea(length, width)) / 2;
 		return area;
 	}
 
 	@Override
-	double calculateCircumference(double side1, double side2, double side3) {
-		return super.calculateCircumference(side1, side2, side3);
+	double calculateCircumference(double length, double width, double edge) {
+		return super.calculateCircumference(length, width, edge);
 	}
 
 	@Override
 	public String toString() {
 		String str = new String();
 		str += "Triangle Info : ";
-		str += "side1: " + side1 + "\n";
-		str += "side2: " + side2 + "\n";
-		str += "side3: " + side3 + "\n";
+		str += "side1: " + length + "\n";
+		str += "side2: " + width + "\n";
+		str += "side3: " + edge + "\n";
 		return str;
 	}
 
 	@Override
 	public int hashCode() {
 		int random = (int) Math.random();
-		int total = (int) side1 + (int) side2 + (int) side3;
+		int total = (int) length + (int) width + (int) edge;
 		int hash = total + random;
 		return hash;
 	}
@@ -54,17 +48,17 @@ public class Triangle extends Shape {
 	public boolean equals(Object o) {
 		Triangle t = (Triangle) o;
 		boolean b = false;
-		if (side1 == t.side1 & side2 == t.side2 & side3 == t.side3)
+		if (length == t.length & width == t.width & edge == t.edge)
 			b = true;
 		return b;
 	}
 
-	public double getSide1() {
-		return side1;
+	public double getEdge() {
+		return edge;
 	}
 
-	public void setSide1(double side1) {
-		this.side1 = side1;
+	public void setEdge(double edge) {
+		this.edge = edge;
 	}
 
 }

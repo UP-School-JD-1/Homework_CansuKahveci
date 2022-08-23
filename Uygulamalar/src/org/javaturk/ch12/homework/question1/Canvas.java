@@ -1,32 +1,27 @@
-//Canvas diye bir başka sınıf oluşturun ve üzerine Shape alan,
-//drawShape(Shape s) ve eraseShape(Shape s) metotlarını
-//koyun.
+
 
 package org.javaturk.ch12.homework.question1;
 
-public class Canvas extends Shape {
+public class Canvas{
 
-	public Canvas() {
-		super();
-	}
 	void drawShape(Shape s) {
-		
-		if(s instanceof Circle c) {
+
+		if (s instanceof Circle c) {
 			c.toString();
 			System.out.println("Shape is Circle");
-		}else if(s instanceof Rectangle r) {
+		} else if (s instanceof Rectangle r) {
 			r.toString();
 			System.out.println("Shape is Rectangle");
-		}else if(s instanceof Triangle t) {
+		} else if (s instanceof Triangle t) {
 			t.toString();
 			System.out.println("Shape is Triangle");
-		}else if(s instanceof Square square) {
+		} else if (s instanceof Square square) {
 			square.toString();
 			System.out.println("Shape is Square");
-		}else {
+		} else {
 			System.out.println("It is not shape");
 		}
-	
+
 	};
 
 	void eraseShape(Shape s) {

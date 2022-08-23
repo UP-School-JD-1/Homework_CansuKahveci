@@ -5,7 +5,6 @@ public class Shape {
 	protected double length;
 	protected double width;
 
-	// triangle daki boş contructor için
 	public Shape() {
 
 	};
@@ -27,6 +26,12 @@ public class Shape {
 
 	};
 
+	double calculateArea(double length) {
+		this.length = length;
+		double area = Math.pow(length, 2);
+		return area;
+	};
+
 	double calculateArea(double length, double width) {
 		this.length = length;
 		this.width = width;
@@ -34,16 +39,8 @@ public class Shape {
 		return area;
 	};
 
-	double calculateArea(double length) {
-		this.length = length;
-		double area = Math.pow(length, 2);
-		return area;
-	};
-
-	double calculateCircumference(double length, double witdh, double c) {
-		this.length = length;
-		this.width = witdh;
-		double circumference = 2 * length * witdh * c;
+	double calculateCircumference(double d) {
+		double circumference = 4 * d;
 		return circumference;
 	}
 
@@ -54,8 +51,10 @@ public class Shape {
 		return circumference;
 	}
 
-	double calculateCircumference(double d) {
-		double circumference = 4 * d;
+	double calculateCircumference(double length, double witdh, double edge) {
+		this.length = length;
+		this.width = witdh;
+		double circumference = length + witdh + edge;
 		return circumference;
 	}
 

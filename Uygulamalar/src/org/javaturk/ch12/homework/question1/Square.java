@@ -2,30 +2,25 @@ package org.javaturk.ch12.homework.question1;
 
 public class Square extends Shape {
 
-	double side;
-
-	public Square() {
-
-	}
-
-	public Square(double side) {
-		this.side = side;
-	};
-
-	@Override
-	double calculateArea(double side) {
-		return super.calculateArea(side);
+	public Square(double length) {
+		super(length);
 	}
 
 	@Override
-	double calculateCircumference(double side) {
-		return super.calculateCircumference(side);
+	double calculateArea(double length) {
+		return super.calculateArea(length);
+	}
+
+//	override etmemize gerek var mı? parent ile aynı metodu kullanıyor
+	@Override
+	double calculateCircumference(double length) {
+		return super.calculateCircumference(length);
 	}
 
 	@Override
 	public int hashCode() {
 //		Hashcode sabit olarak 5 tanımladık. Bunu yapmak mantıksız
-//		equal ve hashcode birbiri ile uyumlu olmalı. equel değilken hash kod FARKLI ÇIKMAMALI"
+//		equal ve hashcode birbiri ile uyumlu olmalı. equal değilken hash kod FARKLI ÇIKMAMALI"
 		int hash = 5;
 		return hash;
 	}
@@ -37,6 +32,15 @@ public class Square extends Shape {
 		if (length == s.length & width == s.width)
 			b = true;
 		return b;
+	}
+	
+	@Override
+	public String toString() {
+		String str = new String();
+		str += "Shape Info : ";
+		str += "length: " + length + "\n";
+		str += "width: " + width + "\n";
+		return str;
 	}
 
 }
