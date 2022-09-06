@@ -23,11 +23,11 @@ public class Naming {
 		namingDemo.simpleMethod(8, 4, false);
 	}
 	
-	public void simpleMethod(int parameter, int parameter2){
-		System.out.println("in aSimpleMethod(int aParameter, int anotherParameter)");
+	public void simpleMethod(int parameter1, int parameter2){
+		System.out.println("in aSimpleMethod(int parameter1, int parameter2)");
 	}
 	
-	public void simpleMethod(int parameter, long parameter2, boolean parameter3){
-		System.out.println("in anotherSimpleMethod(int aParameter, long anotherParameter, boolean yetAnotherParameter)");
+	public void simpleMethod(int parameter1, long parameter2, boolean parameter3){
+		System.out.println("in anotherSimpleMethod(int parameter1, long parameter2, boolean parameter3)");
 	}
 }

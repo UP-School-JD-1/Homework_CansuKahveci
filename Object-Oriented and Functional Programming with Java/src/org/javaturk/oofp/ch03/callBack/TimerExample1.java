@@ -20,7 +20,7 @@ public class TimerExample1 {
 	public static void main(String[] args){
 		ActionListener listener = new TimePrinter1();
 		Timer t1 = new Timer(1_000,  listener);
-//		t1.start();
+		t1.start();
 
 		Timer t2 = new Timer(1_000,  new SelamPrinter1());
 		t2.start();

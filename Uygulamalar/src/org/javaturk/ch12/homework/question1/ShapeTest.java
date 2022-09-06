@@ -21,7 +21,6 @@ public class ShapeTest {
 		Rectangle r3 = r1;
 
 		shape.toString();
-		// square de toString i ezmedik
 		s1.toString();
 		c1.toString();
 		t1.toString();

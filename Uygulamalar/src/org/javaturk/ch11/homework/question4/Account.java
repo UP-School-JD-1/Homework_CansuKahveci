@@ -6,10 +6,6 @@ public class Account {
 	final static double fee = 4.5;
 	private AccountClient accountclient;
 //	static double fee = 4.5;
-
-//	accountclient a gerek yok mu? iki sınıfta 
-//	birbirine eşleme yapmadık ama birini diğerinde kullandık
-
 	public Account() {
 
 	};
@@ -46,7 +42,5 @@ public class Account {
 	public void setAccountclient(AccountClient accountclient) {
 		this.accountclient = accountclient;
 	};
-	
-	
 
 }

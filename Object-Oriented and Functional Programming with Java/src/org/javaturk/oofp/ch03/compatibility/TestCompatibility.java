@@ -8,4 +8,5 @@ public class TestCompatibility {
 		player.play();
 		player.behaveEthically();
 	}
+	
 }

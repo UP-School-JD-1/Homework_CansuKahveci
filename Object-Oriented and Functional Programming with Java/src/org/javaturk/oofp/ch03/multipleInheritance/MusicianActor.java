@@ -7,6 +7,6 @@ public class MusicianActor implements Actor, Musician{
 	}
 }
 
-//public class MusicianActor implements Actor, Musician{
+//public class MusicianActor implements Actor, Musician {
 //
 //}

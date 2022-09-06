@@ -7,7 +7,8 @@ public class NestedClassesExample {
 	public static void main(String[] args) {
 
 		TopCass.doThat(5);
-
+//static class statik olduüu için mi en başta geliyor, yoksa TopCass çĞIRDIĞIMIZDA ONUN ALTINDA STATİK OLARAK TANIMLI OLduğu için mi?
+		//sırası nasıl?
 		TopCass tc = new TopCass();
 		tc.doIt(10);
 		

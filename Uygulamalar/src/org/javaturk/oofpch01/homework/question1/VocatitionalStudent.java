@@ -1,4 +1,4 @@
-package org.javaturk.oofp.ch01.homework.question1;
+package org.javaturk.oofpch01.homework.question1;
 
 import java.util.Date;
 
