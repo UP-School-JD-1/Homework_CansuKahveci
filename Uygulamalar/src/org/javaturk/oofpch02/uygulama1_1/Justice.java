@@ -1,4 +1,4 @@
-package org.javaturk.oofpch02.uygulama1;
+package org.javaturk.oofpch02.uygulama1_1;
 
 public abstract class Justice {
 

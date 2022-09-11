@@ -7,9 +7,9 @@ public class BetterFootballPlayer implements FootballPlayer{
 		System.out.println("BetterFootballPlayer is playing football!");		
 	}
 	
-//	@Override
-//	public void behaveEthically() {
-//		System.out.println("BetterFootballPlayer behaves ethcially!");		
-//	}
+	@Override
+	public void behaveEthically() {
+		System.out.println("BetterFootballPlayer behaves ethcially!");		
+	}
 	
 }
