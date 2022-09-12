@@ -4,7 +4,7 @@ public interface TeamFan {
 
 	void goGame();
 
-	void supportGamer();
+	void supportPlayer();
 
 	void watchMatch();
 
