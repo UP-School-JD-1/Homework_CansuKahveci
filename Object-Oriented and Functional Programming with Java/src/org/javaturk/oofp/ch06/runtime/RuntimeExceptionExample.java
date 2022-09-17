@@ -7,12 +7,12 @@ import org.javaturk.oofp.ch06.shape1.Shape;
 public class RuntimeExceptionExample {
 
 	public static void main(String[] args) {
-//		produceNullPointerException();
-//		produceArrayIndexOutOfBoundsException();
-//		produceStringIndexOutOfBoundsException();
+		produceNullPointerException();
+		produceArrayIndexOutOfBoundsException();
+		produceStringIndexOutOfBoundsException();
 
-//		Shape shape = getMeAShape();
-//		System.out.println(shape.calculateArea());
+		Shape shape = getMeAShape();
+		System.out.println(shape.calculateArea());
 	}
 
 	public static void produceNullPointerException() {

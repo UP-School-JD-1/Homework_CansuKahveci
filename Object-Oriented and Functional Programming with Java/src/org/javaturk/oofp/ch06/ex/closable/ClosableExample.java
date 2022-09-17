@@ -6,7 +6,7 @@ public class ClosableExample {
 		run3();
 	}
 
-	public static void run0() {
+	public static void run() {
 		ClosableClass cc = null;
 		try {
 			cc = new ClosableClass("unique", false);

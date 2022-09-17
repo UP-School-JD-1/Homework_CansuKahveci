@@ -15,7 +15,7 @@ public class ShapeTest {
 			if(shape != null)
 				test.display(shape);
 			
-//			new Circle(-10);
+			new Circle(-10);
 		}
 	}
 	

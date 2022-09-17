@@ -7,7 +7,7 @@ public class ThrowExample {
 			throwAThrowable();
 		} catch (Throwable e) {
 			System.out.println("Catching ");
-			e.printStackTrace();
+//			e.printStackTrace();
 		}
 	}
 

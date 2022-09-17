@@ -33,7 +33,7 @@ public class StackTraceExample {
 		}
 		System.out.println();
 
-		// Optionally:
-		// System.out.println(Arrays.toString(Thread.currentThread().getStackTrace()));
+//		 Optionally:
+//		 System.out.println(Arrays.toString(Thread.currentThread().getStackTrace()));
 	}
 }

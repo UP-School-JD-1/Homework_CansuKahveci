@@ -1,0 +1,9 @@
+Bazı Java frameworkleri checked exception kullanmayıp, tüm
+exceptionları RuntimeException yani unchecked exception olarak
+tanımlamaktadır. Bu tercihi tartışın.
+
+
+Checked excepsion'lar yönetilmelidir. unchecked exception'ların yönetilme zorunluluğu yoktur. Yani derleme zamanı yönetmemiz zorunlu değildir.
+Checked exception'larda ise try-catch ile yönetmeli veye yükseltip yeniden yönetmemiz gerekir, bu ise pek çok trh-catch bloğuna neden olur. 
+
+

@@ -17,6 +17,6 @@ public class RaisingExample {
 
 	public static void throwAThrowable() throws Throwable {
 		Throwable throwable = new Throwable("Just kidding!");
-		throw throwable;
+//		throw throwable;
 	}
 }
