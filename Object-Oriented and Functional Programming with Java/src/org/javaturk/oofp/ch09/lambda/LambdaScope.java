@@ -12,7 +12,7 @@ public class LambdaScope {
 		LambdaScope ls = new LambdaScope();
 		
 //		i++;
-		//s = "I love Java!";
+//		s = "I love Java!";
 		
 //		ScopeInterface si0 = (i, s) -> 5;	// Lambda expression's parameter i cannot redeclare another local variable defined in an enclosing scope. 
 		
@@ -40,7 +40,7 @@ public class LambdaScope {
 		System.out.println(outcome);
 		
 		ScopeInterface si2 = (ii, ss) -> {
-			//System.out.println(m);
+//			System.out.println(m);
 			int m = 10;	// This is not a shadowing!
 			int k = m;
 			

@@ -46,6 +46,6 @@ public class ClockTest {
 			thread.start();
 		};
 		
-		clock3.showClock();
+//		clock3.showClock();
 	}
 }

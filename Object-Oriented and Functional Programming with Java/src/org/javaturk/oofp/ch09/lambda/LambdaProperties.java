@@ -95,7 +95,7 @@ interface PropertyInterface {
 interface SubPropertyInterface extends PropertyInterface {
 	int aSubProperty = 10;
 
-	// public int doThat(int i, int j); // Can't do that! It is a functional
+//	 public int doThat(int i, int j); // Can't do that! It is a functional
 	// interface
 
 	public static void subSMethod() {

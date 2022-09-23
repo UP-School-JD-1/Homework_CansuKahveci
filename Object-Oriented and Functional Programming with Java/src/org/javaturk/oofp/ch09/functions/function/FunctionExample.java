@@ -11,8 +11,8 @@ import org.javaturk.oofp.ch09.domain.BookFactory;
 public class FunctionExample {
 
 	public static void main(String... args) {
-//		functionExample();
-		identityExample();
+		functionExample();
+//		identityExample();
 	}
 
 	public static void functionExample() {

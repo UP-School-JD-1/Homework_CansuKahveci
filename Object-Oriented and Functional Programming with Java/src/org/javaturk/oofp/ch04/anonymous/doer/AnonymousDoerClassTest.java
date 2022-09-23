@@ -5,23 +5,23 @@ public class AnonymousDoerClassTest {
 
 	public static void main(String[] args) {
 		AnonymousDoerClassTest test = new AnonymousDoerClassTest();
-		// test.callAnonymousDoerClass1();
-		// test.callAnonymousDoerClass2();
+		 test.callAnonymousDoerClass1();
+		 test.callAnonymousDoerClass2();
 
-		test.aMethod(new DoerClass());
+//		test.aMethod(new DoerClass());
 
-		test.aMethod(new DoerInterface() {
-
-			@Override
-			public void doIt() {
-				System.out.println("I have to do it :)");
-			}
-
-			@Override
-			public void doThat() {
-				System.out.println("I have to do that :)");
-			}
-		});
+//		test.aMethod(new DoerInterface() {
+//
+//			@Override
+//			public void doIt() {
+//				System.out.println("I have to do it :)");
+//			}
+//
+//			@Override
+//			public void doThat() {
+//				System.out.println("I have to do that :)");
+//			}
+//		});
 	}
 
 	public void callAnonymousDoerClass1() {

@@ -6,8 +6,8 @@ import java.util.function.*;
 public class OperatorExample {
 
 	public static void main(String[] args) {
-		unaryOperatorExample();
-//		binaryOperatorExample();
+//		unaryOperatorExample();
+		binaryOperatorExample();
 	}
 
 	public static void unaryOperatorExample() {
@@ -48,7 +48,7 @@ public class OperatorExample {
 		BinaryOperator<Integer> minOperator = BinaryOperator.minBy(comparator);
 
 		System.out.println("Max: " + maxOperator.apply(32, 23));
-		System.out.println("Min: " + minOperator.apply(32, 23));
+		System.out.println("Min: " + minOperator.apply(32, 45));
 		System.out.println("Max or min?: " + maxOperator.apply(23, 23));
 	}
 }

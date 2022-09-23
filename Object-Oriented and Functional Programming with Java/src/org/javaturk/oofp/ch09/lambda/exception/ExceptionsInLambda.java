@@ -34,11 +34,11 @@ public class ExceptionsInLambda {
 			System.out.println("***************************************");
 		}
 		
-		try {
-			System.out.println("10/0 = " + le.divideOnlyPositives(10, 0));
-		} catch (NegativeArgumentException e) {
-			e.printStackTrace();
-		}
+//		try {
+//			System.out.println("10/0 = " + le.divideOnlyPositives(10, 0));
+//		} catch (NegativeArgumentException e) {
+//			e.printStackTrace();
+//		}
 	}
 }
 

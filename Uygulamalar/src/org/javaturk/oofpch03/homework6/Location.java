@@ -26,4 +26,9 @@ public class Location implements Locationable {
 		this.place = place;
 	}
 
+	@Override
+	public void Location(String place) {
+		System.out.println("Location : "+ getPlace());
+	}
+
 }

@@ -32,4 +32,10 @@ public class Product extends AbstractProduct implements Priceable, Locationable 
 		this.location = location;
 	}
 
+	@Override
+	public void Location(String location) {
+		this.location = location;
+		System.out.println("Location : "+ getLocation());		
+	}
+
 }
