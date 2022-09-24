@@ -30,7 +30,7 @@ public class RegistrationOfficeTest {
 		System.out.println(registrationOffice.getStudent());
 		System.out.println(registrationOffice.getStudent());
 		System.out.println(registrationOffice.getStudent());
-		
+
 		List studentNo = new ArrayList<>();
 		studentNo.add(graduateStudent.no);
 		studentNo.add(masterStudent.no);
@@ -39,7 +39,10 @@ public class RegistrationOfficeTest {
 
 		Comparator<Student> comparator1 = (std1, std2) -> std1.no - std2.no;
 		BinaryOperator<Student> maxNo = BinaryOperator.maxBy(comparator1);
-		
+
 		Collections.sort(studentNo);
-			}
+
+		System.out.println(graduateStudent.compareTo(undergraduateStudent));
+		System.out.print(masterStudent.compareTo(undergraduateStudent));
+	}
 }

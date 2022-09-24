@@ -2,7 +2,7 @@ package org.javaturk.oofpch10.homework3;
 
 import java.util.Date;
 
-abstract class Student {
+abstract class Student implements Comparable<Student>{
 
 	protected int no;
 	protected String name;
@@ -26,6 +26,11 @@ abstract class Student {
 	public String toString() {
 		return "Student : " + "\nno = " + no + "\nname = " + name + "\nyear = " + year + "\ndob = " + dob + "\nmajor = "
 				+ major;
+	}
+	
+	@Override
+	public int compareTo(Student student) {
+		return Integer.compare(student.getNo() ,this.no);
 	}
 
 	public int getNo() {
